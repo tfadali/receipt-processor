@@ -1,0 +1,39 @@
+# Ignore Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore build directories
+bin/
+obj/
+
+# Ignore Go module cache
+# This is for Go 1.11 and later, using Go Modules
+# The `go mod` and `go sum` files should not be ignored, as they track dependencies
+# Don't commit the modules cache folder
+/vendor/
+
+# Ignore Go test binary files
+testdata/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore editor-specific files
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Ignore Go workspace files
+go.work
+go.work.sum
+
+# Ignore the go module's cache directory
+.golangci-lint-cache/
+
